@@ -1,0 +1,57 @@
+.timer-controls-container {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.save-status {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.saving-indicator {
+  color: #ff9800;
+  font-weight: 500;
+}
+
+.last-saved {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.import-export-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.control-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.control-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.export-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.import-btn {
+  background-color: #2196f3;
+  color: white;
+} 

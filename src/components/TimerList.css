@@ -1,0 +1,74 @@
+.timer-list {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.global-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.global-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.global-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pause-all-btn {
+  background-color: var(--pause-btn-bg);
+  color: white;
+}
+
+.resume-all-btn {
+  background-color: var(--resume-btn-bg);
+  color: white;
+}
+
+.reset-all-btn {
+  background-color: var(--reset-btn-bg);
+  color: white;
+}
+
+.timers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .timer-list {
+    padding: 0.5rem;
+  }
+
+  .global-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .timers-grid {
+    grid-template-columns: 1fr;
+  }
+} 
