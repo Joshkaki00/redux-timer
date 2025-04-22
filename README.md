@@ -1,12 +1,79 @@
-# React + Vite
+# 🕒 React Redux Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-timer web application built with React and Redux Toolkit, inspired by productivity tools like Toggl. This app allows users to manage multiple independent timers simultaneously.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Start and manage multiple independent timers
+- ⏸️ Pause and resume timers
+- ⏹️ Stop and reset timers
+- 🧠 Real-time updates and state management
+- 📦 Persistent storage of timer data
+- 🎨 Modern, responsive UI
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Component-based UI library
+- **Redux Toolkit** – State management
+- **JavaScript** – ES6+ functional programming
+- **React Hooks** – `useEffect`, `useSelector`, `useDispatch`
+- **setInterval / clearInterval** – Real-time updates
+- **CSS Modules** – Styled components
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## 🧠 Learning Outcomes
+
+This project demonstrates:
+
+- ✅ Structuring Redux state for complex applications
+- ✅ Managing real-time updates and side effects
+- ✅ Building reusable React components
+- ✅ Implementing proper cleanup of intervals
+- ✅ Organizing code across Redux slices and UI components
+
+## 🔧 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── features/       # Redux slices and related logic
+├── hooks/          # Custom React hooks
+├── utils/          # Helper functions and utilities
+└── App.js          # Main application component
+```
+
+## 🎯 Future Enhancements
+
+- 📊 Time-based analytics and charts
+- 🔐 User authentication and personal timer boards
+- 🔄 Backend integration for data persistence
+- 🧪 Comprehensive test coverage
+- 📱 Progressive Web App (PWA) capabilities
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by productivity tools like Toggl
+- Based on the React-Redux-Timers-Tutorial by Tech-at-DU
+
+---
+
+Happy Coding! 👨‍💻👩‍💻
